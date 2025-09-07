@@ -1,0 +1,32 @@
+Kiedy używać klas abstrakcyjnych
+Częściowa implementacja: Gdy chcesz dostarczyć domyślną implementację niektórych metod, ale pozostawić inne metody do
+zaimplementowania przez klasy dziedziczące.
+Przykład: Masz klasę Vehicle, która zawiera zdefiniowaną metodę startEngine(), ale pozostawia metodę move() jako abstrakcyjną.
+
+Stan i właściwości: Gdy chcesz, aby klasy dziedziczące miały wspólne pola (zmienne instancji).
+Przykład: Klasa Animal z polami takimi jak name i age.
+
+Konstruktor: Gdy potrzebujesz zdefiniować konstruktor, który będzie wywoływany podczas tworzenia instancji klasy dziedziczącej.
+Przykład: Klasa Employee z konstruktorem inicjalizującym name i id.
+
+Logika biznesowa: Gdy potrzebujesz zdefiniować wspólne metody, które mają już część logiki zaimplementowaną.
+Przykład: Klasa Account z metodą calculateInterest().
+
+
+
+Kiedy używać interfejsów
+Brak implementacji: Gdy chcesz zdefiniować tylko kontrakt (zestaw metod), bez żadnej logiki wewnętrznej.
+Przykład: Interfejs Flyable z metodą fly().
+
+Wielokrotne dziedziczenie: Gdy klasy muszą dziedziczyć zachowanie z wielu źródeł. Java pozwala na implementację wielu
+interfejsów, ale dziedziczenie tylko z jednej klasy.
+Przykład: Klasa Bird implementująca interfejsy Flyable i Singable.
+
+Stałe: Gdy chcesz zdefiniować stałe, które będą używane w różnych klasach.
+Przykład: Interfejs Constants zawierający stałe PI, E.
+
+API i kontrakty: Gdy definiujesz API lub zestaw metod, które muszą być zaimplementowane przez klasy implementujące
+interfejs.
+Przykład: Interfejs List z metodami add(), remove(), get().
+
+https://stackoverflow.com/questions/18777989/how-should-i-have-explained-the-difference-between-an-interface-and-an-abstract

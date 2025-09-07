@@ -1,0 +1,17 @@
+W systemie chcemy przechowywać informacje o klientach oraz pracownikach. Dla obu znamy imię, nazwisko, adresy mailowe oraz telefon. Klienci dzielą się między innymi na klientów
+zarejestrowanych, dla których dodatkowo znamy unikalny id klienta.
+Pracownicy ze względu na stanowisko dzielą się na przewodników, obsługę klienta oraz managerów. Dla wszystkich praconików przechowujemy pensje, minimalną pensję
+(jej wartość jest taka sama dla każdego pracownika) oraz liczbę przepracowanych godzin w miesiącu. Przewodnicy znają różne języki, chcemy znać ich listę.
+Pracownicy odpowiedzialni za obsluge klientow sa oceniani w rankingu pracownikow. Dla managerów pamiętamy ich premię (jedynie za ostatni miesiąc).
+Ze względu na rodzaj zatrudnienia pracowników dzielimy na pracowników etatowych i tymczasowych. Dla tych pierwszych przechowujemy rodzaj umowy jaki maja podpisany z firmą.
+Klienci zarejestrowani są obslugiwani przez pracowników obsługi. Chcemy przechowywać informację o dacie obsługi danego klienta przez danego pracownika.
+Klienci rezerwują i kupują wycieczki. Dla wycieczki pamiętamy unikalny id wycieczki, cenę, motyw (Zwiedzanie, wypoczynek lub aktywność) oraz ocenę wycieczki.
+Wycieczki dzielą się na wycieczki krajowe i zagraniczne. Dla wycieczek krajowych przechowujemy miasto, w którym wycieczka się odbedzie, a dla zagranicznych kraj oraz środek transportu.
+Wycieczkki są obsługiwane przez przewodników.
+Każda wycieczka posiada kartę informacyjną, która opisuje informacje o wycieczce, ograniczenia (np. wiekowe, kulturowe etc) oraz uwagi dotyczące wycieczki.
+System ma wspierać następującą funkcjonalność:
+ Dodanie i usunięcie klienta zarejestrowanego
+ Przypisanie klientowi wycieczki
+ Pokazanie wycieczek klienta
+ Pokazanie listy klientów
+ Pokazanie, który klient wydał najwięcej
